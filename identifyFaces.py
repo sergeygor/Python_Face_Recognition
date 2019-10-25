@@ -49,3 +49,6 @@ for (top, right, bottom, left), face_encoding in zip(face_locations, face_encodi
 del draw
 # Display image
 pil_image.show()
+
+# Save image
+pil_image.save('unpackImages/identify.jpg')
